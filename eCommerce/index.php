@@ -20,14 +20,8 @@
 
 </head>
 <body>
-    <h1>Hello ! This my first ecommerce website </h1>
 
-<!--
-    checking
-    add p-0 in container-fluid
-    bg-light
-    bg-info
- -->
+<h1>Hello ! This my first ecommerce website </h1>
 
     <!-- navbar -->
     <div class="container-fluid ">
