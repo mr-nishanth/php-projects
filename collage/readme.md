@@ -9,7 +9,7 @@
 
 - Open Termina (CTRL + T)
 - mysql -u root -p (Press ENTER )
-- gasc
+- gasc (Press ENTER )
 
 ## Step 1 : Create Database
 ` create database webdb; `
