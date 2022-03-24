@@ -7,6 +7,10 @@
 ---
 # Database Code :)
 
+- Open Termina (CTRL + T)
+- mysql -u root -p (Press ENTER )
+- gasc
+
 ## Step 1 : Create Database
 ` create database webdb; `
 
