@@ -1,6 +1,6 @@
 # Webpage Preview
 
-![Home Page](/./img/home.png)
+![Home Page](./img/home.png)
 
 ![Course Page](./img/course.png)
 
