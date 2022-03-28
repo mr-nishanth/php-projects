@@ -7,7 +7,7 @@
 ---
 # Database Code :)
 
-- Open Termina (CTRL + T)
+- Open Terminal (CTRL + T)
 - mysql -u root -p (Press ENTER )
 - gasc (Press ENTER )
 
