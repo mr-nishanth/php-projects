@@ -17,9 +17,11 @@
     </style>
 </head>
 <body bgcolor="lightgrey">
-        <center><h1>Sri Kannan Departmental Store</h1></center>
-        <h2>Erode - Sathy  main road</h2>
-        <h3>Gobichettipalayam 638 402</h3>
-        <a href="fruits.php">Fruits</a>
+        <center>
+            <h1>Sri Kannan Departmental Store</h1>
+            <h2>Erode - Sathy  main road</h2>
+            <h3>Gobichettipalayam 638 402</h3>
+            <a href="fruits.php">Fruits</a>
+        </center>
 </body>
 </html>
