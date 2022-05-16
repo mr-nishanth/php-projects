@@ -28,7 +28,7 @@
 session_start();
 $conn = mysqli_connect("localhost", "root", "gasc", "loginsystem");
 ```
-
+---
 ### Index / Default / Home Page
 
 ```php
@@ -58,6 +58,7 @@ else{
 </html>
 
 ```
+---
 ### Registration Page
 ```php
 // filename : registration.php 💯
@@ -119,6 +120,7 @@ if(isset($_POST["submit"])){
 </html>
 
 ```
+---
 ### Login Page
 
 ```php
@@ -172,7 +174,7 @@ if(isset($_POST["submit"])){
 </html>
 
 ```
-
+---
 ### Logout
 ```php
 // filename : logout.php 💯
