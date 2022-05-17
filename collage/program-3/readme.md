@@ -9,7 +9,7 @@
 
     USE loginsystem;
 
-    CREATE TABLE userr(
+    CREATE TABLE user(
         id int PRIMARY KEY NOT NULL auto_increment ,
         name varchar(30) NOT NULL ,
         username varchar(30) NOT NULL ,
