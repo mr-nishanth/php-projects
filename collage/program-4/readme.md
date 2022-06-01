@@ -2,43 +2,62 @@
 
 ![Home Page](./img/home.png)
 
-![Course Page](./img/course.png)
+![Course Page](./img/snack.png)
+
+![Course Page](./img/juice.png)
+
+![Course Page](./img/ice.png)
 
 ---
 # Database Code :)
 
-- Open Terminal (CTRL + T)
-- mysql -u root -p (Press ENTER )
-- gasc (Press ENTER )
+```sql
+mysql> create database bakery;
 
-## Step 1 : Create Database
-` create database webdb; `
+mysql> use bakery;
 
-## Step 2 : Select database
-`use webdb;`
+mysql> create table snack(name varchar(30) , price int);
 
-## Step 3 : Create table for ug aided
-` CREATE TABLE ugaid(course varchar(30) primary key); `
+mysql> create table juice(name varchar(30) , price int);
 
-## Step 4 : Insert data into ug aided table
-` INSERT INTO ugaid VALUES("B.Sc Maths"); `
+mysql> create table ice(name varchar(30) , price int);
 
-## Step 5 : Create table for pg aided
-` CREATE TABLE pgaid(course varchar(30) primary key); `
+```
 
-## Step 6 : Insert data into pg aided table
-` INSERT INTO pgaid VALUES("MCA"); `
+## Icecreams
+```sql
+insert into ice values("Butterscotch" , 100);
+insert into ice values("Red velvet" , 200);
+insert into ice values("Black current" , 300);
+insert into ice values("Cotton candy" , 150);
+insert into ice values("Chocolate ", 120)
+insert into ice values("Gulfi ", 60);
+insert into ice values("Chocochips ", 40);
+insert into ice values("Vanilla-Brownie ", 90);
+```
 
-## Step 7 : Create table for ug unaided
-` CREATE TABLE ugunaid(course varchar(30) primary key); `
 
-## Step 8 : Insert data into ug unaided table
-` INSERT INTO ugunaid VALUES("B.Sc IT"); `
 
-## Step 9 : Create table for pg unaided
-` CREATE TABLE pgunaid(course varchar(30) primary key); `
+## Juices
+```sql
 
-## Step 10 : Insert data into pg aided table
-` INSERT INTO pgunaid VALUES("M.Sc Computer Science"); `
+insert into juice values("Apple" , 150 );
+insert into juice values("Orange" , 120 );
+insert into juice values("Pista Milk ", 130 );
+insert into juice values("Fruit Mix ", 150);
+insert into juice values("Badam Milk ", 20);
+insert into juice values("Rose Milk ", 20);
+insert into juice values("Chocolate Shake ", 30 );
 
----
+```
+
+## Snacks
+```sql
+
+insert into snack values("Veg pups" , 20);
+insert into snack values("Egg pups" , 30);
+insert into snack values("Mushroom pups" , 40);
+insert into snack values("Bread chilli" ,50);
+insert into snack values("Chicken lollypop" ,60);
+
+```
